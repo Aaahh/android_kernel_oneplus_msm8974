@@ -70,4 +70,8 @@
                 qcom,little-cool-bat-mv = <4320>;
 		qcom,ibatmax-little-cool-ma = <1400>;
 	};
+
+	qcom,pm8941_rtc {
+		qcom,qpnp-rtc-alarm-pwrup = <1>;
+	};
 };
